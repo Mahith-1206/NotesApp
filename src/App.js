@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-import Header from './Header';
-import Footer from './Footer';
-import Input from './Input';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Input from './components/Input';
 import notesArray from './notesArray';
-import createNote from './createNote';
+import createNote from './components/createNote';
 
 function App() {
   const [notes, setNotes] = useState(notesArray);

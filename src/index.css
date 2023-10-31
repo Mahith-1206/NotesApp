@@ -58,21 +58,19 @@ footer p {
   border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
-  margin-left: 2px; /* Add some space between the input and the button */
+  margin-left: 2px;
 }
 
 .add-button[disabled] {
-  background-color: #cccccc; /* Set a background color for the disabled state */
-  color: #666666; /* Set text color for the disabled state */
+  background-color: #cccccc;
+  color: #666666;
   cursor: not-allowed;
-  content: "Asdasd";
-  /* You can add more styles based on your design requirements */
 }
+
 .title {
   display: flex;
     
 }
-
 
 .delete-button {
   font-size: 25px; 
