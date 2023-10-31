@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  background-color: #f5ba13;
+  padding: 15px 28px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  margin-left: -8px;
+  width: 100%;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 25px;
+}
+
+.input-default {
+  margin: 40px 40px 40px 40px;
+  width: 25%;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.input-body {
+  height: 80px;
+  margin: 10px 40px 10px 40px;
+  width: 25%;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  vertical-align: top;
+  border: none;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.add-button {
+  background-color: #f5ba13;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0 2px 5px #ccc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 2px; /* Add some space between the input and the button */
+}
+
+.add-button[disabled] {
+  background-color: #cccccc; /* Set a background color for the disabled state */
+  color: #666666; /* Set text color for the disabled state */
+  cursor: not-allowed;
+  content: "Asdasd";
+  /* You can add more styles based on your design requirements */
+}
+.title {
+  display: flex;
+    
+}
+
+
+.delete-button {
+  font-size: 25px; 
+  cursor: pointer;
+  float: right;
+  margin-left: auto;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 280px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  color: #ecbb33;
+  font-weight: 1000;
+  font-family: "McLaren", cursive;
+  font-size: 30px;
+  margin-bottom: 6px;  
+  
+}
+.note p {
+  font-size: 1.1em;
+  font-family: "Montserrat", cursive;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
